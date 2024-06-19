@@ -1,0 +1,163 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.header-container {
+    height: 890px;
+    width: 100%;
+    border: 1px solid black;
+
+    background-image: url("https://preview.colorlib.com/theme/flyplane/img/hero.jpg.webp");
+}
+
+h1,
+h3 {
+    text-align: center;
+    color: white;
+
+}
+
+h1 {
+    font-size: 70px;
+    padding-top: 200px;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.btn {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    margin-left: 700px;
+    border: none;
+    margin-top: 40px;
+
+}
+
+.list1 {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    column-gap: 50px;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.list2 {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    padding-top: 30px;
+    column-gap: 50px;
+}
+
+.list {
+    display: flex;
+    column-gap: 500px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+    font-size: large;
+    color: black;
+    justify-content: flex-end;
+
+}
+
+.nav-container {
+    width: 1400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 120px;
+    margin-top: 20px;
+    column-gap: 400px;
+}
+
+.search {
+    height: 120px;
+    width: 1400px;
+    border: 1px solid none;
+    background-color: white;
+    padding: 50px;
+    margin: 100px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 20px 30px rgba(29, 42, 59, 0.1);
+
+
+}
+
+.btn2 {
+    background-color: #4657F0;
+    height: 120px;
+    width: 250px;
+    margin-top: -50px;
+    margin-right: -50px;
+    color: white;
+
+
+}
+
+.card-container {
+    width: 1400px;
+    height: 800px;
+    margin-top: 100px;
+    border: 1px solid none;
+    margin: 100px;
+    margin-left: 120px;
+}
+
+.para {
+    display: flex;
+    column-gap: 500px;
+    padding: 10px;
+    
+}
+
+.box {
+    display: flex;
+    column-gap: 40px;
+    align-items: start;
+
+}
+
+.box1,
+.box2,.box3 {
+    height: 500px;
+    width: 440px;
+    border: 1px solid none;
+    box-shadow: 0px 20px 30px rgba(29, 42, 59, 0.1);
+}
+
+
+
+.box-list {
+    list-style-type: none;
+    display: flex;
+   justify-content: space-between;
+   font-size: 15px;
+   padding: 20px;
+}
+p{
+    font-size: 25px;
+     padding: 20px;
+}
+.sec-container
+{
+    height: 1000px;
+    width: 2000px;
+    background-color: #f4f8fb;
+    border: 1px solid blue;
+}
