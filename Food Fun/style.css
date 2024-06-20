@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+
+.main-container {
+    height: 900px;
+    width: auto;
+    background-image: url("https://preview.colorlib.com/theme/foodfun/assets/images/banner-bg.jpg");
+
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.nav-container {
+    display: flex;
+    background-color: white;
+    border: 1px solid none;   
+
+}
