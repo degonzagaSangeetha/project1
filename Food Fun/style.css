@@ -2,25 +2,85 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* font-family: ; */
+    font-family: "Roboto", sans-serif;
+ 
 }
 
 .main-container {
-    height: 900px;
+    height: 1000px;
     width: auto;
     background-image: url("https://preview.colorlib.com/theme/foodfun/assets/images/banner-bg.jpg");
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav-list {
     list-style-type: none;
     display: flex;
+    justify-content: right;
+    align-items: center;
+    column-gap: 30px;
+
+
 
 }
 
 .nav-container {
+    height: 100px;
+    width: 1500px;
     display: flex;
     background-color: white;
-    border: 1px solid none;   
+    border: 1px solid none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px 20px 100px;
 
+}
+.main-bar{
+    padding: 20px 50px 20px 150px;
+  
+}
+img{
+    height: 50px;
+    width:160px;
+}
+.title{
+    color:white;
+    padding: 300px;
+    text-align: center;
+}
+h5{
+font-weight: 300;
+font-size: 20px;
+
+}
+h1{
+font-family:"playfair Display", serif;
+font-size: 70px;
+font-style: italic;
+}
+.prime-color-family{
+    color:#ffb606; 
+    font-family: playfair Display, serif;
+}
+.prime-style-family{
+    font-style: normal;
+    font-family: playfair Display, serif;
+
+}
+.second-container{
+    height: 1000px;
+    width:2000px;
+    border: 1px solid none;
+    flex: display;
+}
+.btn1{
+    background-color: #ffb606;
+}
+h3{
+    font-size: 50px;
+}
+.img{
+    height: 200px;
+    width: 200px;
 }
