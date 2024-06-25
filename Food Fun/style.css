@@ -20,14 +20,15 @@
     justify-content: right;
     align-items: center;
     column-gap: 30px;
+    font-size: 14px;
 
 
 
 }
 
 .nav-container {
-    height: 100px;
-    width: 1500px;
+    height: 90px;
+    width: 1300px;
     display: flex;
     background-color: white;
     border: 1px solid none;
@@ -37,10 +38,12 @@
 
 }
 .main-bar{
-    padding: 20px 50px 20px 150px;
+     padding: 20px ; 
+    display: flex;
+    justify-content: center;
   
 }
-img{
+.first-img{
     height: 50px;
     width:160px;
 }
@@ -63,24 +66,87 @@ font-style: italic;
     color:#ffb606; 
     font-family: playfair Display, serif;
 }
+.prime-color-family-style{
+    color:#ffb606; 
+    font-family: playfair Display, serif;
+    font-style: italic;
+}
+
 .prime-style-family{
     font-style: normal;
     font-family: playfair Display, serif;
 
 }
+
 .second-container{
-    height: 1000px;
-    width:2000px;
+   
     border: 1px solid none;
-    flex: display;
+    display: flex;
+   
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+.div-container{
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+    padding-top: 120px;
+
+  
+    
+}
+
+
+h3{
+    font-size: 40px;
+    font-family:playfair Display, serif ;
+  
+}
+
+.text{    
+ 
+text-align:start;
+
+padding: 20px;
+
+
+}
+.p1{
+    padding-top: 20px;
+    color:  #777;
+    font-size: 14px;
+    width:450px;
 }
 .btn1{
     background-color: #ffb606;
+    padding: 20px;
+    margin-top: 20px;
+    width: 170px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
 }
-h3{
-    font-size: 50px;
+.third-container{
+
 }
-.img{
-    height: 200px;
-    width: 200px;
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.p2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: playfair Display, serif ;
+}
+.p{
+    padding: 20px;
+    color:  #777;
+    font-size: 20px;
+    width:300px;
+}
+.box{
+  background-color: #f9f9ff;
+   height: 400px;
+   padding: 10px;
 }
