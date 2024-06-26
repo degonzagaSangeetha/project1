@@ -7,7 +7,7 @@
 }
 
 .main-container {
-    height: 1000px;
+   
     width: auto;
     background-image: url("https://preview.colorlib.com/theme/foodfun/assets/images/banner-bg.jpg");
     background-repeat: no-repeat;
@@ -100,13 +100,13 @@ font-style: italic;
 h3{
     font-size: 40px;
     font-family:playfair Display, serif ;
+    width: 300px;
   
 }
 
 .text{    
  
 text-align:start;
-
 padding: 20px;
 
 
@@ -115,8 +115,9 @@ padding: 20px;
     padding-top: 20px;
     color:  #777;
     font-size: 14px;
-    width:450px;
+
 }
+
 .btn1{
     background-color: #ffb606;
     padding: 20px;
@@ -127,26 +128,42 @@ padding: 20px;
     border: none;
 }
 .third-container{
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/food-bg.png.webp);
+    background-repeat: no-repeat;
+  background-position: top right;
+    background-size: auto;
+    display: grid;
+    justify-content: center;
+    padding: 150px;
 
+    }
+    .para
+{
+    width: 450px;
 }
 .box-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 40px;
+    padding-top: 70px;
 }
 .p2{
     font-size: 20px;
     font-weight: 700;
     font-family: playfair Display, serif ;
 }
-.p{
-    padding: 20px;
-    color:  #777;
-    font-size: 20px;
-    width:300px;
-}
+
 .box{
   background-color: #f9f9ff;
-   height: 400px;
-   padding: 10px;
+  width: 350px;
+  height: 450px;
+
+}
+.details
+{
+    padding: 20px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
 }
