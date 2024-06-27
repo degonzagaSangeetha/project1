@@ -6,7 +6,7 @@
  
 }
 
-.main-container {
+.first-container {
    
     width: auto;
     background-image: url("https://preview.colorlib.com/theme/foodfun/assets/images/banner-bg.jpg");
@@ -82,7 +82,8 @@ font-style: italic;
    
     border: 1px solid none;
     display: flex;
-   
+    padding-top: 50px;
+    padding-left: 150px;
     justify-content: center;
     flex-wrap: wrap;
     }
@@ -115,6 +116,7 @@ padding: 20px;
     padding-top: 20px;
     color:  #777;
     font-size: 14px;
+    width: 50%;
 
 }
 
@@ -134,7 +136,7 @@ padding: 20px;
     background-size: auto;
     display: grid;
     justify-content: center;
-    padding: 150px;
+    padding: 100px;
 
     }
     .para
@@ -167,3 +169,81 @@ padding: 20px;
     display: flex;
     justify-content: space-between;
 }
+.forth-container{
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/reservation-bg.jpg.webp);
+    height:400px;
+   
+}
+h2{
+
+font-size: 35px;
+padding: 10px;
+font-family: playfair Display, serif ;
+}
+h4{
+   
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 350;
+    font-style: italic;
+
+}
+.num{
+    font-size: 50px;
+    font-weight: 350;
+}
+.parag{
+    color: white;
+    text-align: center;
+    padding: 120px;
+  
+}
+.sixth-container{
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/testimonial-bg.jpg.webp);
+    height:400px;
+    
+}
+h6{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 350;
+    padding: 10px;
+}
+.para-con
+{
+    text-align: center;
+}
+.h2{
+    text-align: center;
+    
+}
+.par-con{
+    width: 60%;
+    padding: 20px;
+}
+.btn2{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+}
+.text{
+    padding: 10px;
+    padding-left: 100px;
+}
+.p3{
+   padding: 10px;
+   width: 60%;
+        color:  #777;
+        font-size: 14px;
+}
+/* @media(max-width:600px){
+    .box-container{
+        grid-template-columns: repeat(2, 1fr);
+}
+.box{
+    width: 250px;
+    height: 350px;
+}
+} */
