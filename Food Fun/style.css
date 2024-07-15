@@ -12,6 +12,7 @@
     background-image: url("https://preview.colorlib.com/theme/foodfun/assets/images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .nav-list {
@@ -58,13 +59,14 @@
 
 h5 {
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
+
 
 }
 
 h1 {
     font-family: "playfair Display", serif;
-    font-size: 70px;
+    font-size: 60px;
     font-style: italic;
 }
 
@@ -90,7 +92,7 @@ h1 {
     border: 1px solid none;
     display: flex;
     padding-top: 50px;
-    padding-left: 150px;
+    padding-left: 50px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -100,8 +102,6 @@ h1 {
     align-items: center;
     justify-content: space-around;
     padding-top: 120px;
-
-
 
 }
 
@@ -123,7 +123,7 @@ h3 {
     padding-top: 20px;
     color: #777;
     font-size: 14px;
-    width: 70%;
+    line-height: 1.5;
 }
 .p3 {
     padding: 10px;
@@ -134,13 +134,13 @@ h3 {
 
 .btn1 {
     background-color: #ffb606;
-    margin: 0;
     width: 170px;
     font-size: 14px;
     font-weight: 500;
     border: none;
-    display: flex;
-    justify-content: center;
+    padding: 15px;
+    margin-top: 30px;
+    
 }
 
 .third-container {
@@ -173,11 +173,23 @@ h3 {
 
 .box {
     background-color: #f9f9ff;
-    width: 350px;
+    width: 361px;
     height: 450px;
 
 }
-
+.box:hover{
+    background-color: #ffb606;
+}
+.im{
+   overflow: hidden;
+}
+.im img:hover { 
+    transition: transform 0.5s ease;  
+    transform: scale(1.1);  
+  }  
+.price{
+    font-size: 20px;
+}
 .details {
     padding: 20px;
 }
@@ -210,8 +222,9 @@ h4 {
 }
 
 .num {
-    font-size: 50px;
-    font-weight: 350;
+    padding: 10px;
+       font-size: 30px;
+     font-weight: 700;
 }
 
 .parag {
@@ -220,7 +233,29 @@ h4 {
     padding: 120px;
 
 }
+.fifth-container{
+    height: 1660px;
+    padding: 130px;
+}
+.desh{
+    width:445px;
+    height:  396px;
+}
+.card1,.card2
+{
+    display: flex;
+    flex-wrap: wrap;
+ padding-top: 30px;
+ padding-left: 100px;
 
+}
+
+.par-con1, .img-con2 {
+    width: 45%;
+    }
+.par-con2, .img-con1{
+width:55%;
+}
 .sixth-container {
     background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/testimonial-bg.jpg.webp);
     height: 470px;
@@ -243,22 +278,24 @@ h6 {
 
 }
 
-.par-con {
-    width: 60%;
-    padding: 20px;
-}
-
 .btn2 {
     background-color: #ffb606;
     border: none;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
-    padding: 10px;
+    padding: 12px 30px;
+    margin-top: 20px;
+}
+.btn2:hover{
+    background-color: transparent;
+    color:  #ffb606;
+    border: 1px solid  #ffb606 ;
+    transition: all 0.5s;
 }
 
-.text {
-    padding: 10px;
-    padding-left: 100px;
+.text1 {
+    padding-left: 90px;
+
 }
 
 
