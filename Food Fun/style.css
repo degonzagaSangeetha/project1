@@ -161,11 +161,43 @@ justify-content: center;
     display: block;
 }
 .first-footer{
-   
+    flex-direction: column;
+    justify-content: center;
+}
+.head7{
+    text-align: center;
+}
+.input-icons{
     flex-direction: column;
 }
-} 
+.input-field{
+    width: 300px;
+    padding: 34px 30px;
+}
+.box-container {
+    flex-direction: column;
+}
+.card1{
+    flex-direction: column;
+}
+.card2{
+    flex-direction: column-reverse;
+}
+}
 
+@media(max-width:560px)
+{
+ .para-container>.p1{
+width:auto;
+ }
+
+}
+@media(max-width:350px)
+{
+    .forth-container {
+        height: 800px;
+    }
+}
 .second-container {
 
     border: 1px solid none;
@@ -203,6 +235,7 @@ justify-content: center;
     font-size: 14px;
     line-height: 1.5;
     padding-bottom: 35px;
+
 }
 
 .p3 {
@@ -217,10 +250,7 @@ justify-content: center;
     background-repeat: no-repeat;
     background-position: top right;
     background-size: auto;
-    display: grid;
-    justify-content: center;
     padding: 100px;
-
 }
 
 .para {
@@ -237,12 +267,18 @@ justify-content: center;
     font-size: 14px;
     line-height: 1.5;
 }
+.para-container{
+display:flex;
+flex-wrap: wrap;
+margin-left: 150px;
 
+}
 .box-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    justify-content: center;
+    padding: 100px;
 }
 
 .card-body>.p2 {
@@ -290,7 +326,9 @@ justify-content: center;
 
 .forth-container {
     background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/reservation-bg.jpg.webp);
-    height: 400px;
+    padding:50px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -309,7 +347,6 @@ justify-content: center;
 }
 
 .fifth-container {
-    height: 1200px;
     padding: 130px;
 }
 
@@ -317,23 +354,32 @@ justify-content: center;
     width: 445px;
     height: 396px;
 }
+.par-con1>h1, .par-con2>h1{
+    text-align: start;
+}
+.text2 {
+    padding-left: 80px;
+}
+.text1{
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
 
 .card1,
 .card2 {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 150px;
+   justify-content: center;
+   padding-left: 150px;
 
 }
-
 .par-con1,
 .img-con2 {
-    width: 45%;
+    width: 50%;
 }
-
 .par-con2,
 .img-con1 {
-    width: 55%;
+    width: 50%;
 }
 
 .sixth-container {
@@ -386,10 +432,6 @@ justify-content: center;
     transition: all 0.5s;
 }
 
-.text1 {
-    padding-left: 90px;
-
-}
 
 .card-container2 {
     display: flex;
@@ -501,6 +543,9 @@ justify-content: center;
     justify-content: center;
     align-items: center;
 
+}
+.hours,.contact{
+    justify-content: center;
 }
 
 .foot-para {
