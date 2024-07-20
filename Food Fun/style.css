@@ -5,6 +5,10 @@
     font-family: "Roboto", sans-serif;
 
 }
+img {
+    width:100%;
+    height: auto;
+}
 .prime-color-family {
     color: #ffb606;
     font-family: playfair Display, serif;
@@ -72,7 +76,7 @@ h7 {
     background-image: url("https://preview.colorlib.com/theme/foodfun/assets/images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 925px;
+
 
 }
 
@@ -90,6 +94,7 @@ h7 {
 .nav-container {
     height: 90px;
     width: 1300px;
+    border-radius: 5px;
     display: flex;
     background-color: white;
     border: 1px solid none;
@@ -105,7 +110,7 @@ h7 {
         background: #ffb606;
         padding: 25px 25px;
         border-radius: 3px;
-         display: none;
+        display: none;
 }
 .main-bar {
     padding: 20px;
@@ -184,13 +189,25 @@ justify-content: center;
     flex-direction: column-reverse;
 }
 }
+@media(max-width:770px){
+.div-container{
+    flex-direction: column;
+}
+.text{
+padding-right: 15px;
+padding-left: 15px;
+ }
+}
 
 @media(max-width:560px)
 {
  .para-container>.p1{
 width:auto;
  }
-
+.box-container,
+{
+    flex-wrap: wrap;
+}
 }
 @media(max-width:350px)
 {
@@ -218,7 +235,8 @@ width:auto;
 
 .text {
     text-align: start;
-    padding: 20px;
+    padding-right: 25%;
+    flex-wrap: wrap;
 }
 
 .text>.p1 {
@@ -226,7 +244,7 @@ width:auto;
     color: #777;
     font-size: 14px;
     line-height: 1.5;
-    width: 47%
+   
 }
 
 .para-container>.p1 {
@@ -275,8 +293,7 @@ margin-left: 150px;
 }
 .box-container {
     display: flex;
-    flex-wrap: wrap;
-    column-gap: 40px;
+    gap: 40px;
     justify-content: center;
     padding: 100px;
 }
@@ -433,12 +450,6 @@ margin-left: 150px;
 }
 
 
-.card-container2 {
-    display: flex;
-    justify-content: center;
-    column-gap: 20px;
-    padding: 20px;
-}
 
 .admin {
     display: flex;
@@ -467,20 +478,19 @@ margin-left: 150px;
 }
 
 .seventh-container {
-    height: 890px;
-    padding: 100px;
+padding: 50px 0px 150px 100px;
+}
+.card-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
 
 }
-
-.eigth-container {
-    background: url(https://preview.colorlib.com/theme/foodfun/assets/images/table-bg.jpg.webp);
-    height: 570px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
+.card{
+    height:500px ;
+    width:500px;
 }
-
 .card-body {
     background-color: #f9f9ff;
     width: 78%;
@@ -494,6 +504,17 @@ margin-left: 150px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transition: .5s;
 }
+
+
+.eigth-container {
+    background: url(https://preview.colorlib.com/theme/foodfun/assets/images/table-bg.jpg.webp);
+    height: 570px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
 
 .dark_overlay1 {
     background-color: rgba(1, 7, 16, 0.8);
