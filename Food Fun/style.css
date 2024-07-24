@@ -139,14 +139,15 @@ transform: translate(-50%, -50%);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    padding: 100px 0px;
 
 }
 
 .div-container {
     display: flex;
     align-items: center;    
-justify-content: center;
+    justify-content: center;
 
 }
 .second-con-img{
@@ -428,7 +429,7 @@ padding-bottom: 80px;
 
 .eigth-container {
     background: url(https://preview.colorlib.com/theme/foodfun/assets/images/table-bg.jpg.webp);
-    height: 570px;
+    height: auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -544,6 +545,7 @@ ul>li {
     .box-container{
         grid-template-columns: repeat(2,1fr);
     }
+ 
 }
 @media(max-width:1010px)
 {
@@ -555,7 +557,14 @@ ul>li {
     }
 }
 @media(max-width:900px){
-   
+    .img-con {
+        width: 345px;
+        height: 350px;
+    }
+    .card1{
+        height: auto;
+        width: auto;
+    }
     .nav-container
     {
         height: 90px;
@@ -577,7 +586,6 @@ ul>li {
 }
 }
 
-} 
 @media(max-width:770px){
     .div-container{
         flex-direction: column;
@@ -620,9 +628,15 @@ ul>li {
 }
 .input-icons{
     flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.btn1{
+    margin-top: 100px;
+
 }
 .input-field{
-    width: 480px;
+    width: 100%;
     padding: 20px;
 }
 .box-container {
@@ -651,14 +665,30 @@ width:auto;
 .second-con-img{
     height: 300px;
 }
+.para{
+    width: auto;
+}
 }
 @media(max-width:410px)
 {
     .second-con-img{
         height: 100px;
     }
+    .im{
+        height: 300px;
+        width: 274px;
+    }
+    .box{
+        height: auto;
+        width: auto;
+    }
 }
-
+@media(max-width:370px)
+{
+    .fflogo1{
+        height: 50px;
+    }
+}
 @media(max-width:350px)
 {
     .forth-container {
