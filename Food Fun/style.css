@@ -73,7 +73,7 @@ h7 {
 .first-container {
 
     width: auto;
-    height: 820px;
+    height: 920px;
     background-image: url("https://preview.colorlib.com/theme/foodfun/assets/images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,8 +135,9 @@ transform: translate(-50%, -50%);
 
 
 .second-container {
-padding: 100px;
+
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     flex-wrap: wrap;
 
@@ -145,7 +146,7 @@ padding: 100px;
 .div-container {
     display: flex;
     align-items: center;    
-
+justify-content: center;
 
 }
 .second-con-img{
@@ -155,7 +156,7 @@ padding: 100px;
 .text {
     text-align: start;
     width: 26%;
-   
+
 }
 
 .text>.p1 {
@@ -288,6 +289,7 @@ padding-bottom: 80px;
     margin: auto;
     padding: 100px 0px;
 }
+
 .card-container1
 {
     width: 67%;
@@ -396,19 +398,22 @@ padding-bottom: 80px;
 }
 
 .seventh-container {
+    padding: 100px 0px;  
+}
+.card{
+    height:auto;
+    width: 365px;
 
-    padding: 100px 0px;
-    
-   
 }
 .card-container2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 30px;
 }
 
 .card-body {
     background-color: #f9f9ff;
-    width: 72%;
     height: 250px;
     padding: 20px;
 
@@ -535,7 +540,20 @@ ul>li {
 .colorlib {
     color: blue;
 }
-
+@media(max-width:1350px){
+    .box-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:1010px)
+{
+    .div-container {
+        flex-direction: column;
+    }
+    .text{
+        width:70%;
+    }
+}
 @media(max-width:900px){
    
     .nav-container
@@ -549,7 +567,28 @@ ul>li {
 .nav-bar{
     display: block;
 }
+.box-container{
+    grid-template-columns: repeat(1,1fr);
+}
+.box {
+    background-color: #f9f9ff;
+    width: 361px;
+    height: 450px;
+}
+}
+
 } 
+@media(max-width:770px){
+    .div-container{
+        flex-direction: column;
+    }
+    .text{
+    padding-right: 15px;
+    padding-left: 15px;
+     }
+    }
+    
+
 @media(max-width:700px){
     .first-container {
         height: 700px;
@@ -568,6 +607,10 @@ ul>li {
 .nav-bar{
     display: block;
 }
+.second-con-img {
+    height: 480px;
+
+}
 .first-footer{
     flex-direction: column;
     justify-content: center;
@@ -579,8 +622,8 @@ ul>li {
     flex-direction: column;
 }
 .input-field{
-    width: 300px;
-    padding: 34px 30px;
+    width: 480px;
+    padding: 20px;
 }
 .box-container {
     flex-direction: column;
@@ -591,15 +634,9 @@ ul>li {
 .card2{
     flex-direction: column-reverse;
 }
-}
-@media(max-width:770px){
-.div-container{
+.second-footer{
     flex-direction: column;
 }
-.text{
-padding-right: 15px;
-padding-left: 15px;
- }
 }
 
 @media(max-width:560px)
@@ -607,11 +644,21 @@ padding-left: 15px;
  .para-container>.p1{
 width:auto;
  }
-.box-container,
+.box-container
 {
     flex-wrap: wrap;
 }
+.second-con-img{
+    height: 300px;
 }
+}
+@media(max-width:410px)
+{
+    .second-con-img{
+        height: 100px;
+    }
+}
+
 @media(max-width:350px)
 {
     .forth-container {
@@ -619,31 +666,8 @@ width:auto;
     }
 }
 
-/*  */
-.main-container-vid{
-    width: 85%;
-    /* height: 500px; */
-    /* border: 2px solid red; */
-    margin: auto;
-}
-
-@media(max-width:1350px){
-    .box-container{
-        grid-template-columns: repeat(2,1fr);
-    }
-
-}
-@media(max-width:1150px){
-.vid-card1{
-    flex-direction: column;
-}
-.inner-vid-card{
-    width: 70%;
-}
-}
-@media(max-width:950px){
-    .box-container{
-        grid-template-columns: repeat(1,1fr);
-    }
-
+@media(max-width:280px)
+{
+    
+    
 }
