@@ -5,10 +5,7 @@
     font-family: "Roboto", sans-serif;
 
 }
-/* img {
-    width:100%;
-    height: auto;
-} */
+
 .prime-color-family {
     color: #ffb606;
     font-family: playfair Display, serif;
@@ -99,17 +96,15 @@ h7 {
     display: flex;
     background-color: white;
     border: 1px solid none;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 20px 120px 20px 100px;
-
 
 }
 .nav-bar{
         position: absolute;
         right: 120px;
         background: #ffb606;
-        padding: 25px 25px;
+        padding: 10px 15px;
         border-radius: 3px;
         display: none;
 }
@@ -231,7 +226,7 @@ padding-bottom: 80px;
 
 .box {
     background-color: #f9f9ff;
-    width: 361px;
+    width: 362px;
     height: 450px;
 
 }
@@ -302,7 +297,9 @@ padding-bottom: 80px;
     align-items: center;
     justify-content: center;
 }
-
+.par-con1,.par-con2{
+    width: auto;
+}
 .img-con {
     width: 445px;
     height: 396px;
@@ -460,6 +457,7 @@ padding-bottom: 80px;
 
 .input-icons i {
     position: absolute;
+    align-items: center;
 }
 
 .icon {
@@ -468,7 +466,7 @@ padding-bottom: 80px;
 }
 
 .input-field {
-    width: 220px;
+    width: 210px;
     padding: 14px 20px;
     text-align: center;
     border-radius: 6px;
@@ -508,6 +506,7 @@ padding-bottom: 80px;
 
 .soc-med {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 30px;
 }
@@ -541,11 +540,25 @@ ul>li {
 .colorlib {
     color: blue;
 }
+@media(max-width:1450px){
+    .card-container1{
+        width: auto;
+    }
+}
 @media(max-width:1350px){
     .box-container{
         grid-template-columns: repeat(2,1fr);
     }
- 
+    .second-con-img{
+        height: 500px;
+    }
+    .fifth-container{
+        width: auto;
+    }
+   
+    .text1,.text2{
+        padding-left: 0px;
+    }
 }
 @media(max-width:1010px)
 {
@@ -553,8 +566,12 @@ ul>li {
         flex-direction: column;
     }
     .text{
-        width:70%;
+        width:auto;
     }
+    .second-con-img {
+        height: 400px;
+    }
+    
 }
 @media(max-width:900px){
     .img-con {
@@ -571,7 +588,7 @@ ul>li {
         width: 700px;
 }
 .nav-list{
-    visibility: hidden;
+    display: none;
 }
 .nav-bar{
     display: block;
@@ -598,11 +615,14 @@ ul>li {
     
 
 @media(max-width:700px){
+   h1{
+        font-size: 45px;
+    }
     .first-container {
         height: 700px;
     }
     .title{
-        padding: 100px;
+        top:45%;
     }
     .nav-container
     {
@@ -639,6 +659,9 @@ ul>li {
     width: 100%;
     padding: 20px;
 }
+.icon{
+    padding: 20px;
+}
 .box-container {
     flex-direction: column;
 }
@@ -669,30 +692,59 @@ width:auto;
     width: auto;
 }
 }
+@media(max-width:445px)
+{
+    .box{
+        width:300px;
+    }
+    .im{
+        width:300px;
+    }
+}
+
 @media(max-width:410px)
 {
     .second-con-img{
         height: 100px;
     }
-    .im{
-        height: 300px;
-        width: 274px;
-    }
-    .box{
-        height: auto;
-        width: auto;
-    }
+   
 }
-@media(max-width:370px)
+
+@media(max-width:380px)
 {
     .fflogo1{
         height: 50px;
+    }
+    .box{
+        width:200px;
+    }
+    .im{
+        width:200px;
+    }
+    .div-container{
+        width: 200px;
     }
 }
 @media(max-width:350px)
 {
     .forth-container {
         height: 800px;
+    }
+    h3{
+        width:200px;
+    }
+    .card>img{
+        width:200px;
+    }
+    .card{
+        width:200px;
+    }
+    .img-con{
+        height: 200px;
+        width: 200px;
+    }
+    .par-con1,.par-con2{
+        width: 200px;
     }
 }
 
