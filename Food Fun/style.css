@@ -226,7 +226,7 @@ padding-bottom: 80px;
 
 .box {
     background-color: #f9f9ff;
-    width: 362px;
+    width: 340px;
     height: 450px;
 
 }
@@ -237,6 +237,7 @@ padding-bottom: 80px;
 
 .im {
     overflow: hidden;
+    width: 340px;
 }
 
 .im img:hover {
@@ -461,7 +462,7 @@ padding-bottom: 80px;
 }
 
 .icon {
-    padding: 10px;
+    padding: 15px;
     min-width: 40px;
 }
 
@@ -598,7 +599,7 @@ ul>li {
 }
 .box {
     background-color: #f9f9ff;
-    width: 361px;
+    width: 340px;
     height: 450px;
 }
 }
@@ -723,6 +724,12 @@ width:auto;
     }
     .div-container{
         width: 200px;
+    }
+    .card>img{
+        width:280px;
+    }
+    .card{
+        width:280px;
     }
 }
 @media(max-width:350px)
