@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-
 }
 
 .prime-color-family {
@@ -20,7 +19,6 @@
 .prime-style-family {
     font-style: normal;
     font-family: playfair Display, serif;
-
 }
 
 h1 {
@@ -29,6 +27,7 @@ h1 {
     font-style: italic;
     text-align: center;
 }
+
 h2 {
     font-size: 35px;
     padding: 10px;
@@ -47,6 +46,7 @@ h4 {
     font-weight: 350;
     font-style: italic;
 }
+
 h5 {
     font-weight: 300;
     font-size: 16px;
@@ -74,8 +74,6 @@ h7 {
     background-image: url("https://preview.colorlib.com/theme/foodfun/assets/images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 
 .nav-list {
@@ -85,8 +83,7 @@ h7 {
     align-items: center;
     column-gap: 30px;
     font-size: 14px;
-  visibility: visible;
-
+    visibility: visible;
 }
 
 .nav-container {
@@ -98,21 +95,21 @@ h7 {
     border: 1px solid none;
     justify-content: space-around;
     align-items: center;
+}
 
+.nav-bar {
+    position: absolute;
+    right: 120px;
+    background: #ffb606;
+    padding: 10px 15px;
+    border-radius: 3px;
+    display: none;
 }
-.nav-bar{
-        position: absolute;
-        right: 120px;
-        background: #ffb606;
-        padding: 10px 15px;
-        border-radius: 3px;
-        display: none;
-}
+
 .main-bar {
     padding: 20px;
     display: flex;
     justify-content: center;
-
 }
 
 .fflogo1 {
@@ -121,34 +118,33 @@ h7 {
 }
 
 .title {
-color: white;
-position: absolute;
-top: 55%;
-left: 50%;
-transform: translate(-50%, -50%);
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
 .second-container {
-
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     padding: 100px 0px;
-
 }
 
 .div-container {
     display: flex;
-    align-items: center;    
+    align-items: center;
     justify-content: center;
+}
+
+.second-con-img {
+    height: 650px;
 
 }
-.second-con-img{
-    height:650px;
 
-}
 .text {
     text-align: start;
     width: 26%;
@@ -159,8 +155,8 @@ transform: translate(-50%, -50%);
     padding-top: 20px;
     color: #777;
     font-size: 14px;
-    font-weight:400 ;
-   
+    font-weight: 400;
+
 }
 
 .para-container>.p1 {
@@ -199,12 +195,14 @@ transform: translate(-50%, -50%);
     font-size: 14px;
     line-height: 1.5;
 }
-.para-container{
-width:70%;
-margin: auto;
-padding-bottom: 80px;
+
+.para-container {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 80px;
 
 }
+
 .box-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -260,7 +258,7 @@ padding-bottom: 80px;
 
 .forth-container {
     background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/reservation-bg.jpg.webp);
-    padding:50px 0px;
+    padding: 50px 0px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -281,40 +279,48 @@ padding-bottom: 80px;
 }
 
 .fifth-container {
- 
+
     width: 86%;
     margin: auto;
     padding: 100px 0px;
 }
 
-.card-container1
-{
+.card-container1 {
     width: 67%;
     margin: auto;
 }
-.card1,.card2{
+
+.card1,
+.card2 {
     display: flex;
     gap: 40px;
     align-items: center;
     justify-content: center;
 }
-.par-con1,.par-con2{
+
+.par-con1,
+.par-con2 {
     width: auto;
 }
+
 .img-con {
     width: 445px;
     height: 396px;
 }
-.par-con1>h1, .par-con2>h1{
+
+.par-con1>h1,
+.par-con2>h1 {
     text-align: start;
 }
+
 .text2 {
     padding-left: 80px;
 }
-.text1{
+
+.text1 {
     padding-left: 80px;
     padding-bottom: 50px;
-} 
+}
 
 
 
@@ -397,13 +403,15 @@ padding-bottom: 80px;
 }
 
 .seventh-container {
-    padding: 100px 0px;  
+    padding: 100px 0px;
 }
-.card{
-    height:auto;
+
+.card {
+    height: auto;
     width: 365px;
 
 }
+
 .card-container2 {
     display: flex;
     flex-wrap: wrap;
@@ -485,7 +493,9 @@ padding-bottom: 80px;
     align-items: center;
 
 }
-.hours,.contact{
+
+.hours,
+.contact {
     justify-content: center;
 }
 
@@ -541,222 +551,258 @@ ul>li {
 .colorlib {
     color: blue;
 }
-@media(max-width:1450px){
-    .card-container1{
-        width: auto;
+
+@media(max-width:1450px) {
+    .card-container1 {
+        width: 80%;
     }
 }
-@media(max-width:1350px){
-    .box-container{
-        grid-template-columns: repeat(2,1fr);
+
+@media(max-width:1350px) {
+    .box-container {
+        grid-template-columns: repeat(2, 1fr);
     }
-    .second-con-img{
+
+    .second-con-img {
         height: 500px;
     }
-    .fifth-container{
+
+    .fifth-container {
         width: auto;
     }
-   
-    .text1,.text2{
+
+    .text1,
+    .text2 {
         padding-left: 0px;
     }
 }
-@media(max-width:1010px)
-{
+
+@media(max-width:1010px) {
     .div-container {
         flex-direction: column;
     }
-    .text{
-        width:auto;
+
+    .text {
+        width: 70%;
     }
+
     .second-con-img {
         height: 400px;
     }
-    
+
 }
-@media(max-width:900px){
+
+@media(max-width:900px) {
     .img-con {
         width: 345px;
         height: 350px;
     }
-    .card1{
+
+    .card1 {
         height: auto;
         width: auto;
     }
-    .nav-container
-    {
+
+    .nav-container {
         height: 90px;
         width: 700px;
-}
-.nav-list{
-    display: none;
-}
-.nav-bar{
-    display: block;
-}
-.box-container{
-    grid-template-columns: repeat(1,1fr);
-}
-.box {
-    background-color: #f9f9ff;
-    width: 340px;
-    height: 450px;
-}
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    .box-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box {
+        background-color: #f9f9ff;
+        width: 340px;
+        height: 450px;
+    }
 }
 
-@media(max-width:770px){
-    .div-container{
+@media(max-width:770px) {
+    .div-container {
         flex-direction: column;
     }
-    .text{
-    padding-right: 15px;
-    padding-left: 15px;
-     }
-    }
-    
 
-@media(max-width:700px){
-   h1{
+    .text {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+@media(max-width:700px) {
+    h1 {
         font-size: 45px;
     }
+
     .first-container {
         height: 700px;
     }
-    .title{
-        top:45%;
+
+    .title {
+        top: 45%;
     }
-    .nav-container
-    {
+
+    .nav-container {
         height: 90px;
         width: 500px;
-}
-.nav-list{
-    visibility: hidden;
-}
-.nav-bar{
-    display: block;
-}
-.second-con-img {
-    height: 480px;
-
-}
-.first-footer{
-    flex-direction: column;
-    justify-content: center;
-}
-.head7{
-    text-align: center;
-}
-.input-icons{
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-}
-.btn1{
-    margin-top: 100px;
-
-}
-.input-field{
-    width: 100%;
-    padding: 20px;
-}
-.icon{
-    padding: 20px;
-}
-.box-container {
-    flex-direction: column;
-}
-.card1{
-    flex-direction: column;
-}
-.card2{
-    flex-direction: column-reverse;
-}
-.second-footer{
-    flex-direction: column;
-}
-}
-
-@media(max-width:560px)
-{
- .para-container>.p1{
-width:auto;
- }
-.box-container
-{
-    flex-wrap: wrap;
-}
-.second-con-img{
-    height: 300px;
-}
-.para{
-    width: auto;
-}
-}
-@media(max-width:445px)
-{
-    .box{
-        width:300px;
     }
-    .im{
-        width:300px;
+
+    .nav-list {
+        visibility: hidden;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    .second-con-img {
+        height: 480px;
+
+    }
+
+    .first-footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .head7 {
+        text-align: center;
+    }
+
+    .input-icons {
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+
+    .btn1 {
+        margin-top: 100px;
+
+    }
+
+    .input-field {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .icon {
+        padding: 20px;
+    }
+
+    .box-container {
+        flex-direction: column;
+    }
+
+    .card1 {
+        flex-direction: column;
+    }
+
+    .card2 {
+        flex-direction: column-reverse;
+    }
+    .par-con1, .par-con2 {
+        width: 80%;
+    }
+    .second-footer {
+        flex-direction: column;
     }
 }
 
-@media(max-width:410px)
-{
-    .second-con-img{
+@media(max-width:560px) {
+    .para-container>.p1 {
+        width: auto;
+    }
+
+    .box-container {
+        flex-wrap: wrap;
+    }
+
+    .second-con-img {
+        height: 300px;
+    }
+
+    .para {
+        width: auto;
+    }
+}
+
+@media(max-width:445px) {
+    .box {
+        width: 300px;
+    }
+
+    .im {
+        width: 300px;
+    }
+}
+
+@media(max-width:410px) {
+    .second-con-img {
         height: 100px;
     }
-   
+
 }
 
-@media(max-width:380px)
-{
-    .fflogo1{
+@media(max-width:380px) {
+    .fflogo1 {
         height: 50px;
     }
-    .box{
-        width:200px;
-    }
-    .im{
-        width:200px;
-    }
-    .div-container{
+
+    .box {
         width: 200px;
     }
-    .card>img{
-        width:280px;
+
+    .im {
+        width: 200px;
     }
-    .card{
-        width:280px;
+
+    .div-container {
+        width: 200px;
+    }
+
+    .card>img {
+        width: 280px;
+    }
+
+    .card {
+        width: 280px;
     }
 }
-@media(max-width:350px)
-{
+
+@media(max-width:350px) {
     .forth-container {
         height: 800px;
     }
-    h3{
-        width:200px;
+
+    h3 {
+        width: 200px;
     }
-    .card>img{
-        width:200px;
+
+    .card>img {
+        width: 200px;
     }
-    .card{
-        width:200px;
+
+    .card {
+        width: 200px;
     }
-    .img-con{
+
+    .img-con {
         height: 200px;
         width: 200px;
     }
-    .par-con1,.par-con2{
+
+    .par-con1,
+    .par-con2 {
         width: 200px;
     }
-}
-
-@media(max-width:280px)
-{
-    
-    
 }
