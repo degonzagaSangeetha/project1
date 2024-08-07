@@ -1,43 +1,85 @@
-.box
-{
-    height: 580px;
+h1 {
+    
+    font-style: italic;
+}
+.insta{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.header{
+    border-bottom: 1px solid #dedcdc;
+    
+}
+.box {
+    height: 500px;
     width: 400px;
-    border: 1px solid grey ;
+    border: 1px solid #dedcdc;
     margin: auto;
-
+    margin-top: 100px;
 }
 
-.box-container{
+.box-container {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+
 }
-h3{
-    font-weight: 600;
+
+.heading {
+    font-size: 18px;
+    font-weight: 500;
     font-style: normal;
+    font-family: sans-serif;
 }
-button{
-    border: none;
-    background-color:white;
-}
-.login_link_btn
-{
+
+.login_link_btn {
     background-color: rgb(193, 230, 245);
     width: 313px;
     height: 30px;
     border-radius: 5px;
+    border: none;
+
 }
-.login_btn{
-color:#262626;
-}
-p{
+
+.para {
     color: #737373;
     font-weight: 400;
+    width: 80%;
 }
-.text{
+
+.text {
     width: 290px;
     height: 28px;
     padding: 4px 9px;
     border-radius: 5px;
 }
+
+.login_btn {
+    height: 44px;
+    font-weight: 600;
+    width: 100%;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(250, 250, 250);
+}
+
+.acnt_btn,
+.login_btn {
+    color: #262626;
+    font-weight: 600;
+
+}
+
+.acnt_btn {
+    border: none;
+    background-color: white;
+}
+
+.reset-btn {
+    border: none;
+    background-color: white;
+}
+
+/*  */
