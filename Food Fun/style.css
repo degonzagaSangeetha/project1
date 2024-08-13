@@ -32,7 +32,7 @@ h2 {
     font-size: 35px;
     padding: 10px;
     font-family: playfair Display, serif;
-}
+list}
 
 h3 {
     font-size: 40px;
@@ -76,7 +76,7 @@ h7 {
     background-size: cover;
 }
 
-.nav-list {
+.nav- {
     list-style-type: none;
     display: flex;
     justify-content: right;
