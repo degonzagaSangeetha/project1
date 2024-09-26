@@ -76,7 +76,7 @@ h7 {
     background-size: cover;
 }
 
-.nav- {
+.nav-list {
     list-style-type: none;
     display: flex;
     justify-content: right;
